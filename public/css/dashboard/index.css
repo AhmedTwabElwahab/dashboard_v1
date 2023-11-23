@@ -1,0 +1,134 @@
+.rbox {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  height: 100px;
+  background-size: cover;
+  background-image: url("../../images/dashboard/circle.svg");
+  background-repeat: no-repeat;
+  background-position: left; }
+
+.flex1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; }
+
+.rbox h4 {
+  font-size: 15px;
+  font-weight: 400; }
+
+.rbox h2 {
+  font-weight: 400;
+  margin-top: 10px; }
+
+.rbox span {
+  background: #556EE6;
+  color: white;
+  border-radius: 50%;
+  margin-top: 15px;
+  width: 40px;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  align-items: center; }
+
+.transactionTable {
+  padding: 20px;
+  background: white;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2); }
+  .transactionTable h3 {
+    font-weight: 500;
+    font-size: 20px; }
+  .transactionTable .detailsTable {
+    margin-top: 35px; }
+    .transactionTable .detailsTable table thead tr th {
+      white-space: nowrap;
+      text-align: left;
+      background: #EFF2F7;
+      font-weight: 400;
+      padding: 15px 5px 15px 5px;
+      color: #004f83; }
+    .transactionTable .detailsTable table tbody tr td {
+      white-space: nowrap;
+      font-size: 14px;
+      text-align: left;
+      padding: 10px 5px 10px 5px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.05); }
+    .transactionTable .detailsTable table tbody tr button {
+      border-radius: 50px;
+      background: #556EE6;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 8px 15px; }
+    .transactionTable .detailsTable table span {
+      font-size: 12px;
+      padding: 5px;
+      border-radius: 5px; }
+    .transactionTable .detailsTable table .green {
+      background: #DAF4EB;
+      color: #34C398; }
+    .transactionTable .detailsTable table .red {
+      background: #FDE4E4;
+      color: #F46C71; }
+    .transactionTable .detailsTable table .yellow {
+      background: #FCF1DF;
+      color: #F1B44C; }
+
+/* activityDash section style */
+.activityDash .box {
+  padding: 20px;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2); }
+  .activityDash .box h3 {
+    font-weight: 500;
+    font-size: 17px;
+    margin-bottom: 20px; }
+  .activityDash .box button {
+    background: #556EE6;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 8px 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px; }
+    .activityDash .box button i {
+      margin: 0 5px;
+      vertical-align: middle; }
+.activityDash .abox {
+  margin-top: 30px; }
+  .activityDash .abox i {
+    width: 10%;
+    margin-top: 5px; }
+  .activityDash .abox label {
+    width: 20%; }
+  .activityDash .abox span {
+    width: 10%;
+    margin-top: 5px;
+    color: #50A5F1; }
+  .activityDash .abox p {
+    width: 60%;
+    font-size: 14px;
+    color: grey;
+    margin-bottom: 5px; }
+.activityDash i {
+  margin: 0 5px;
+  vertical-align: middle; }
+
+.circleDash .text {
+  text-align: center;
+  margin-top: 20px; }
+.circleDash #loac {
+  margin-top: 35px;
+  height: 176px; }
+
+/*# sourceMappingURL=index.css.map */
