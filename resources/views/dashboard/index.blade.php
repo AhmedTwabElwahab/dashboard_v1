@@ -215,6 +215,131 @@
         </div>
     </div>
     {{-- end tables   --}}
+
+    <div class="Cards mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card card-widget">
+                    <div class="widget-user-header text-white">
+                        <h3 class="widget-user-username">Elizabeth Pierce</h3>
+                        <h5 class="widget-user-desc">Web Designer</h5>
+                    </div>
+                    <div class="widget-user-image">
+                        <img  src="{{asset('images/profile/man_2.png')}}" alt="User Avatar">
+                    </div>
+                    <div class="card-footer">
+                        <div class="row">
+                            <div class="col-sm-4 border-right">
+                                <div class="description-block">
+                                    <h5 class="description-header">3,200</h5>
+                                    <span class="description-text">SALES</span>
+                                </div>
+                                <!-- /.description-block -->
+                            </div>
+                            <!-- /.col -->
+                            <div class="col-sm-4 border-right">
+                                <div class="description-block">
+                                    <h5 class="description-header">13,000</h5>
+                                    <span class="description-text">FOLLOWERS</span>
+                                </div>
+                                <!-- /.description-block -->
+                            </div>
+                            <!-- /.col -->
+                            <div class="col-sm-4">
+                                <div class="description-block">
+                                    <h5 class="description-header">35</h5>
+                                    <span class="description-text">PRODUCTS</span>
+                                </div>
+                                <!-- /.description-block -->
+                            </div>
+                            <!-- /.col -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card card-widget">
+                    <div class="widget-user-header2 text-white">
+                        <h3 class="widget-user-username">Ahmed Rayes</h3>
+                        <h5 class="widget-user-desc">Web Designer</h5>
+                    </div>
+                    <div class="widget-user-image ">
+                        <img  src="{{asset('images/profile/man.png')}}" alt="User Avatar">
+                    </div>
+                    <div class="card-footer">
+                        <div class="row">
+                            <div class="col-sm-4 border-right">
+                                <div class="description-block">
+                                    <h5 class="description-header">3,200</h5>
+                                    <span class="description-text">SALES</span>
+                                </div>
+                                <!-- /.description-block -->
+                            </div>
+                            <!-- /.col -->
+                            <div class="col-sm-4 border-right">
+                                <div class="description-block">
+                                    <h5 class="description-header">13,000</h5>
+                                    <span class="description-text">FOLLOWERS</span>
+                                </div>
+                                <!-- /.description-block -->
+                            </div>
+                            <!-- /.col -->
+                            <div class="col-sm-4">
+                                <div class="description-block">
+                                    <h5 class="description-header">35</h5>
+                                    <span class="description-text">PRODUCTS</span>
+                                </div>
+                                <!-- /.description-block -->
+                            </div>
+                            <!-- /.col -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card card-widget widget-user">
+                    <div class="widget-user-header3 text-white">
+                        <h3 class="widget-user-username ">Elizabeth Pierce</h3>
+                        <h5 class="widget-user-desc">Web Designer</h5>
+                    </div>
+                    <div class="widget-user-image2">
+                        <img  src="{{asset('images/profile/gamer.png')}}" alt="User Avatar">
+                    </div>
+                    <div class="card-footer">
+                        <div class="row">
+                            <div class="col-sm-4 border-right">
+                                <div class="description-block">
+                                    <h5 class="description-header">3,200</h5>
+                                    <span class="description-text">SALES</span>
+                                </div>
+                                <!-- /.description-block -->
+                            </div>
+                            <!-- /.col -->
+                            <div class="col-sm-4 border-right">
+                                <div class="description-block">
+                                    <h5 class="description-header">13,000</h5>
+                                    <span class="description-text">FOLLOWERS</span>
+                                </div>
+                                <!-- /.description-block -->
+                            </div>
+                            <!-- /.col -->
+                            <div class="col-sm-4">
+                                <div class="description-block">
+                                    <h5 class="description-header">35</h5>
+                                    <span class="description-text">PRODUCTS</span>
+                                </div>
+                                <!-- /.description-block -->
+                            </div>
+                            <!-- /.col -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection
 @section("js")
     <script src="{{asset('js/libs/apexcharts/apexcharts.min.js')}}"></script>

@@ -36,6 +36,84 @@
   justify-content: center;
   align-items: center; }
 
+.card-widget {
+  border: 0;
+  position: relative;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2); }
+  .card-widget .widget-user-header2 {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    height: 135px;
+    padding: 1rem;
+    text-align: center;
+    background-color: #17a2b8 !important; }
+    .card-widget .widget-user-header2 h3, .card-widget .widget-user-header2 h5 {
+      text-align: center;
+      font-size: 25px;
+      font-weight: 300;
+      margin-bottom: 0;
+      margin-top: 0;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); }
+  .card-widget .widget-user-header {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    height: 135px;
+    padding: 1rem;
+    text-align: center;
+    background-size: cover;
+    background-image: url("../../images/dashboard/card_back_1.png");
+    background-repeat: no-repeat;
+    background-position: center center; }
+    .card-widget .widget-user-header h3, .card-widget .widget-user-header h5 {
+      text-align: right;
+      font-size: 25px;
+      font-weight: 300;
+      margin-bottom: 0;
+      margin-top: 0;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); }
+  .card-widget .widget-user-header3 {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    height: 135px;
+    padding: 1rem;
+    text-align: center;
+    background-color: #fd2678a8 !important; }
+    .card-widget .widget-user-header3 h3, .card-widget .widget-user-header3 h5 {
+      text-align: center;
+      font-size: 25px;
+      font-weight: 300;
+      margin-bottom: 0;
+      margin-top: 0;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); }
+  .card-widget .widget-user-image {
+    left: 50%;
+    margin-left: -45px;
+    position: absolute;
+    top: 80px; }
+    .card-widget .widget-user-image > img {
+      border: 3px solid #fff;
+      height: auto;
+      width: 90px;
+      border-radius: 50%;
+      vertical-align: middle; }
+  .card-widget .widget-user-image2 {
+    left: 13%;
+    margin-left: -45px;
+    position: absolute;
+    top: 80px; }
+    .card-widget .widget-user-image2 > img {
+      border: 3px solid #fff;
+      height: auto;
+      width: 90px;
+      border-radius: 50%;
+      vertical-align: middle; }
+  .card-widget .card-footer {
+    padding-top: 50px;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-top: 0 solid rgba(0, 0, 0, 0.125); }
+    .card-widget .card-footer .border-right {
+      border-right: 1px solid #dee2e6 !important; }
+
 .transactionTable {
   padding: 20px;
   background: white;
