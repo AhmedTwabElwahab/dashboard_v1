@@ -13,8 +13,7 @@
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Library</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Data</li>
+                    <li class="breadcrumb-item active" aria-current="page">Dashboard v1</li>
                 </ol>
             </nav>
         </div>
@@ -216,9 +215,9 @@
     </div>
     {{-- end tables   --}}
 
-    <div class="Cards mt-5">
+    <div class="Cards">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 mt-5">
                 <div class="card card-widget">
                     <div class="widget-user-header text-white">
                         <h3 class="widget-user-username">Elizabeth Pierce</h3>
@@ -231,7 +230,7 @@
                         <div class="row">
                             <div class="col-sm-4 border-right">
                                 <div class="description-block">
-                                    <h5 class="description-header">3,200</h5>
+                                    <h5 class="description-header">3,500</h5>
                                     <span class="description-text">SALES</span>
                                 </div>
                                 <!-- /.description-block -->
@@ -239,7 +238,7 @@
                             <!-- /.col -->
                             <div class="col-sm-4 border-right">
                                 <div class="description-block">
-                                    <h5 class="description-header">13,000</h5>
+                                    <h5 class="description-header">19,000</h5>
                                     <span class="description-text">FOLLOWERS</span>
                                 </div>
                                 <!-- /.description-block -->
@@ -247,7 +246,7 @@
                             <!-- /.col -->
                             <div class="col-sm-4">
                                 <div class="description-block">
-                                    <h5 class="description-header">35</h5>
+                                    <h5 class="description-header">49</h5>
                                     <span class="description-text">PRODUCTS</span>
                                 </div>
                                 <!-- /.description-block -->
@@ -258,7 +257,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mt-5">
                 <div class="card card-widget">
                     <div class="widget-user-header2 text-white">
                         <h3 class="widget-user-username">Ahmed Rayes</h3>
@@ -298,7 +297,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mt-5">
                 <div class="card card-widget widget-user">
                     <div class="widget-user-header3 text-white">
                         <h3 class="widget-user-username ">Elizabeth Pierce</h3>
@@ -311,7 +310,7 @@
                         <div class="row">
                             <div class="col-sm-4 border-right">
                                 <div class="description-block">
-                                    <h5 class="description-header">3,200</h5>
+                                    <h5 class="description-header">92,200</h5>
                                     <span class="description-text">SALES</span>
                                 </div>
                                 <!-- /.description-block -->
@@ -319,7 +318,7 @@
                             <!-- /.col -->
                             <div class="col-sm-4 border-right">
                                 <div class="description-block">
-                                    <h5 class="description-header">13,000</h5>
+                                    <h5 class="description-header">86,000</h5>
                                     <span class="description-text">FOLLOWERS</span>
                                 </div>
                                 <!-- /.description-block -->
@@ -327,7 +326,7 @@
                             <!-- /.col -->
                             <div class="col-sm-4">
                                 <div class="description-block">
-                                    <h5 class="description-header">35</h5>
+                                    <h5 class="description-header">650</h5>
                                     <span class="description-text">PRODUCTS</span>
                                 </div>
                                 <!-- /.description-block -->

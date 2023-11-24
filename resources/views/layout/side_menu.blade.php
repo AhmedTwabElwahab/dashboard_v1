@@ -1,7 +1,7 @@
 <aside class="sidebar min_width">
     <div class="logo_details">
         <i class="bx bxl-audible icon"></i>
-        <div class="logo_name">LOGO</div>
+        <div class="logo_name">TId</div>
         <i class="bx bx-menu" id="btn"></i>
     </div>
     <ul class="nav-list">
