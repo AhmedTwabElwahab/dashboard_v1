@@ -88,25 +88,25 @@
                         <div class="abox flex1">
                             <i class='bx bx-chevrons-right'></i>
                             <label>22 Nov</label>
-                            <span class="fas fa-long-arrow-alt-right"></span>
+                            <i class='bx bx-right-arrow-alt' style='color:#556EE6' ></i>
                             <p>Responded to need “Volunteer Activities</p>
                         </div>
                         <div class="abox flex1">
                             <i class='bx bx-chevrons-right'></i>
                             <label>17 Nov</label>
-                            <span class="fas fa-long-arrow-alt-right"></span>
+                            <i class='bx bx-right-arrow-alt' style='color:#556EE6' ></i>
                             <p>Everyone realizes why a new common language would be desirable... </p>
                         </div>
                         <div class="abox flex1">
                             <i class='bx bx-chevrons-right'></i>
                             <label>15 Nov</label>
-                            <span class="fas fa-long-arrow-alt-right"></span>
+                            <i class='bx bx-right-arrow-alt' style='color:#556EE6' ></i>
                             <p>Joined the group “Boardsmanship Forum”</p>
                         </div>
                         <div class="abox flex1">
                             <i class='bx bx-chevrons-right'></i>
                             <label>18 Nov</label>
-                            <span class="fas fa-long-arrow-alt-right"></span>
+                            <i class='bx bx-right-arrow-alt' style='color:#556EE6' ></i>
                             <p>Responded to need “In-Kind Opportunity”</p>
                         </div>
                         <button>
@@ -121,14 +121,10 @@
                     <div class="box location">
                         <div class="text ">
                             <h3>Top Cities Selling Product</h3>
-                            <img
-                                src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/889AEE/external-location-map-pin-flatart-icons-outline-flatarticons-10.png">
+                            <img alt="locations" src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/889AEE/external-location-map-pin-flatart-icons-outline-flatarticons-10.png">
                             <h2>1,456</h2>
                             <span>San Francisco</span>
                         </div>
-                        <div id="loac">
-                        </div>
-
                     </div>
                 </div>
             </div>

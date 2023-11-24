@@ -22,8 +22,14 @@ $(document).ready(function ()
     });
 
     $('ul li .have-links').on('click',function () {
-        let id = $(this).attr('id');
         $(this).children('i:last-child').toggleClass('bx-chevron-right').toggleClass('bx-chevron-down');
         $(this).siblings(`ul`).slideToggle();
+    });
+
+    $('tr td.have-links').on('click',function () {
+        $(".table-dropdown").each(function(){
+            $(this).hide();
+        });
+        $(this).children(`a`).children('ul').toggle();
     });
 });

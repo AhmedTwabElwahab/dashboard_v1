@@ -1,0 +1,56 @@
+.card-app .detailsTable {
+  margin-top: 35px; }
+  .card-app .detailsTable table thead tr th {
+    white-space: nowrap;
+    text-align: left;
+    background: #EFF2F7;
+    font-weight: 400;
+    padding: 15px 5px 15px 5px;
+    color: #004f83; }
+  .card-app .detailsTable table tbody tr td {
+    white-space: nowrap;
+    font-size: 14px;
+    text-align: left;
+    padding: 10px 5px 10px 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05); }
+  .card-app .detailsTable table tbody tr td.have-links a {
+    text-decoration: none;
+    position: relative; }
+    .card-app .detailsTable table tbody tr td.have-links a ul {
+      list-style: none;
+      background: #FFF;
+      margin: 0;
+      padding: 10px;
+      border: 1px solid #CCC;
+      border-radius: 5px;
+      z-index: 12;
+      position: absolute; }
+      .card-app .detailsTable table tbody tr td.have-links a ul li {
+        padding: 5px;
+        color: #004f83; }
+        .card-app .detailsTable table tbody tr td.have-links a ul li i {
+          color: #556EE6 !important; }
+        .card-app .detailsTable table tbody tr td.have-links a ul li:hover {
+          color: #34C398; }
+  .card-app .detailsTable table tbody tr button {
+    border-radius: 50px;
+    background: #556EE6;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 8px 15px; }
+  .card-app .detailsTable table span {
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 5px; }
+  .card-app .detailsTable table .green {
+    background: #DAF4EB;
+    color: #34C398; }
+  .card-app .detailsTable table .red {
+    background: #FDE4E4;
+    color: #F46C71; }
+  .card-app .detailsTable table .yellow {
+    background: #FCF1DF;
+    color: #F1B44C; }
+
+/*# sourceMappingURL=index.css.map */

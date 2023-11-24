@@ -1,0 +1,91 @@
+$color_1: #34C398;
+$color_2: #F46C71;
+$color_3: #F1B44C;
+$color_4: white;
+
+.card-app
+{
+    .detailsTable {
+        margin-top: 35px;
+        table {
+            thead {
+                tr {
+                    th {
+                        white-space: nowrap;
+                        text-align: left;
+                        background: #EFF2F7;
+                        font-weight: 400;
+                        padding: 15px 5px 15px 5px;
+                        color: #004f83;
+                    }
+                }
+            }
+            tbody {
+                tr {
+                    td {
+                        white-space: nowrap;
+                        font-size: 14px;
+                        text-align: left;
+                        padding: 10px 5px 10px 5px;
+                        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+                    }
+                    td.have-links
+                    {
+                        a{
+                            text-decoration: none;
+                            position: relative;
+                            ul
+                            {
+                                list-style: none;
+                                background: #FFF;
+                                margin: 0;
+                                padding: 10px;
+                                border: 1px solid #CCC;
+                                border-radius: 5px;
+                                z-index: 12;
+                                position: absolute;
+                                li
+                                {
+                                    padding: 5px;
+                                    color: #004f83;
+                                    i{
+                                        color: #556EE6 !important;
+                                    }
+                                    &:hover
+                                    {
+                                        color: $color_1;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    button {
+                        border-radius: 50px;
+                        background: #556EE6;
+                        border: none;
+                        outline: none;
+                        color: white;
+                        padding: 8px 15px;
+                    }
+                }
+            }
+            span {
+                font-size: 12px;
+                padding: 5px;
+                border-radius: 5px;
+            }
+            .green {
+                background: #DAF4EB;
+                color: $color_1;
+            }
+            .red {
+                background: #FDE4E4;
+                color: $color_2;
+            }
+            .yellow {
+                background: #FCF1DF;
+                color: $color_3;
+            }
+        }
+    }
+}
