@@ -6,10 +6,37 @@
     </div>
     <ul class="nav-list">
         <li>
-            <a href="#">
+            <a href="#" class="have-links" id="Dashboard-list">
                 <i class="bx bx-grid-alt"></i>
                 <span class="link_name">Dashboard</span>
+                <i class='bx bx-chevron-right'></i>
             </a>
+            <ul class="nav-list mt-0" style="display: none" data-list="Dashboard-list">
+                <li>
+                    <a href="#" class="active">
+                        <i class='bx bx-circle'></i>
+                        <span class="link_name">Dashboard v1</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-circle'></i>
+                        <span class="link_name">Dashboard v2</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-circle'></i>
+                        <span class="link_name">Dashboard v3</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-circle'></i>
+                        <span class="link_name">Dashboard v4</span>
+                    </a>
+                </li>
+            </ul>
             <span class="tooltip">Dashboard</span>
         </li>
         <li>

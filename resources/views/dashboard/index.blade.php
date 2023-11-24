@@ -1,7 +1,6 @@
 @extends('layout.app')
 @section('css')
     <link rel="stylesheet" href="{{asset('css/dashboard/index.css')}}">
-    <link rel="stylesheet" href="{{asset('css/libs/chartist/chartist.min.css')}}">
 @endSection
 @section('content')
 {{-- TODO::make this breadcrumb as componant   --}}
@@ -12,8 +11,14 @@
         <div>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Dashboard v1</li>
+                    <li class="breadcrumb-item">
+                        <i class='bx bx-home-smile' style="color: #556EE6"></i>
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">
+                        <i class="bx bx-grid-alt" style="color: #556EE6"></i>
+                        Dashboard v1
+                    </li>
                 </ol>
             </nav>
         </div>

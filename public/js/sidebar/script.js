@@ -20,4 +20,10 @@ $(document).ready(function ()
            main.addClass('main_col');
        }
     });
+
+    $('ul li .have-links').on('click',function () {
+        let id = $(this).attr('id');
+        $(this).children('i:last-child').toggleClass('bx-chevron-right').toggleClass('bx-chevron-down');
+        $(this).siblings(`ul`).slideToggle();
+    });
 });
